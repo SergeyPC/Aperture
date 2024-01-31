@@ -1,0 +1,135 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+header {
+    background: #181818;
+}
+
+header nav li {
+    display: flex;
+    margin-left: 20px;
+}
+
+header nav li:first-of-type {
+    margin-right: 20px;
+}
+
+header nav li:first-of-type a {
+    font-size: 10px;
+}
+
+header nav li a {
+    color: white;
+}
+
+header nav li:last-of-type a {
+    background-color: white;
+    padding: 10px 20px;
+}
+
+.photographer {
+    color: #C0C0C0;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 142.857% */
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.main_border h3 {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 59.4px; /* 110% */
+}
+
+.lorem {
+    color: #C0C0C0;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 142.857% */
+}
+
+.main_border {
+    background-image: url("../images/aperture_studios.jpg");
+    background-position: center center;
+    background-size: cover;
+    height: calc(100vh - 90px);
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 71px;
+}
+
+.main_border article {
+    max-width: 540px;
+    text-align: center;
+}
+
+.mini_icons {
+    display: flex;
+    position: relative;
+    right: 46px;
+    bottom: 46px;
+}
+
+.mini_icons li:before {
+    content: "";
+    background-image: url("#");
+    width: 10px;
+    height: 10px;
+    margin-right: 6px;
+    position: relative;
+    bottom: -4px;
+}
+
+.past_client {
+    background: #000;
+    padding-top: 113px;
+    padding-bottom: 100px;
+}
+
+.past_client_container h2 {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 42px; /* 105% */
+    margin-bottom: 15px;
+}
+
+.past_client_container h3 {
+    color: #C0C0C0;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 125% */
+    margin-bottom: 40px;
+}
+
+.past_client_images {
+    display: flex;
+    justify-content: center;
+    padding: 40px 46px;
+}
+
+.past_client_images a {
+    display: inline-flex;
+    margin-left: 109px;
+    text-align: center;
+    align-items: center;
+}
