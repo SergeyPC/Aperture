@@ -1,9 +1,25 @@
 * {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 header {
     background: #181818;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.container_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+}
+
+header nav ul {
+    display: flex;
+    align-items: center;
 }
 
 header nav li {
@@ -16,16 +32,35 @@ header nav li:first-of-type {
 }
 
 header nav li:first-of-type a {
-    font-size: 10px;
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 153.846% */
 }
 
 header nav li a {
-    color: white;
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    text-decoration: none;
 }
 
 header nav li:last-of-type a {
-    background-color: white;
+    border-radius: 14px;
+    background-color: #FFF;
     padding: 10px 20px;
+    color: #000;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 125% */
+    letter-spacing: 0.4px;
 }
 
 .photographer {
@@ -48,6 +83,7 @@ header nav li:last-of-type a {
     font-style: normal;
     font-weight: 400;
     line-height: 59.4px; /* 110% */
+    margin-bottom: 18px;
 }
 
 .lorem {
@@ -78,19 +114,35 @@ header nav li:last-of-type a {
 
 .mini_icons {
     display: flex;
-    position: relative;
+    position: absolute;
     right: 46px;
     bottom: 46px;
+    list-style-type: none;
 }
 
 .mini_icons li:before {
     content: "";
-    background-image: url("#");
-    width: 10px;
-    height: 10px;
+    background-image: url("../images/seconds.png");
+    width: 50px;
+    height: 50px;
     margin-right: 6px;
     position: relative;
     bottom: -4px;
+}
+
+.mini_icons li:nth-child(2):before {
+    content: "";
+    background-image: url("../images/f11.svg");
+}
+
+.mini_icons li:nth-child(3):before {
+    content: "";
+    background-image: url("../images/ISO.svg");
+}
+
+.mini_icons li:last-of-type:before {
+    content: "";
+    background-image: url("../images/geolocation.svg");
 }
 
 .past_client {
@@ -133,3 +185,56 @@ header nav li:last-of-type a {
     text-align: center;
     align-items: center;
 }
+
+.past_client_images .owl-stage {
+    display: flex; /* Убедитесь, что .owl-stage также настроен как flex контейнер */
+    justify-content: center; /* Выравнивание по горизонтали */
+    align-items: center; /* Выравнивание по вертикали */
+}
+
+.owl-carousel .owl-item img{
+    max-width: 128px;
+    width: auto;
+    display: inline-block;
+}
+/*
+.main_border ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    bottom: 46px;
+    right: 40px;
+    display: flex;
+}*/
+
+.main_border article li {
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 12px; /* 100% */
+    margin-left: 40px;
+}
+
+
+/*
+.container_get_started:before {
+    content: "";
+    width: 300px;
+    height: 400px;
+    background-image: url("../images/bush.svg");
+    background-size: cover;
+    left: 0;
+    position: absolute;
+    top: 14px;
+    z-index: -1;
+}*/
+/*
+.owl-carousel.owl-drag .owl-item {
+    display: inline-flex;
+    margin-left: 109px;
+    text-align: center;
+    align-items: center;
+}*/
