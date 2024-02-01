@@ -158,6 +158,11 @@ header nav li:last-of-type a {
     padding-bottom: 100px;
 }
 
+.past_client_container {
+    max-width: 1200px;
+    margin: auto;
+}
+
 .past_client_container h2 {
     color: #FFF;
     text-align: center;
@@ -188,7 +193,7 @@ header nav li:last-of-type a {
 
 .past_client_images a {
     display: inline-flex;
-    margin-left: 109px;
+    margin-left: 90px;
     text-align: center;
     align-items: center;
 }
