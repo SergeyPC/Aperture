@@ -193,9 +193,13 @@ header nav li:last-of-type a {
 
 .past_client_images a {
     display: inline-flex;
-    margin-left: 90px;
+    /*margin-left: 90px;*/
     text-align: center;
     align-items: center;
+}
+
+.owl-stage .owl-item:last-child {
+    width: auto !important;
 }
 
 .past_client_images .owl-stage {
