@@ -19,12 +19,21 @@
     header {
         position: relative;
         width: 100%;
-        background: #333;
+    }
+
+    #cssmenu ul li a {
+        background-color: transparent;
     }
 
     .container_header {
         padding-left: 35px;
     }
+
+    .mini_icons {
+        position: static;
+        padding: 15px 0 0 60px;
+    }
+
     .logo {
         position: relative;
         z-index: 123;
@@ -36,7 +45,7 @@
     }
 
     .logo a {
-        color: #FFF;
+        display: none;
     }
 
     nav {
@@ -80,11 +89,12 @@
 
     #cssmenu > ul > li > a {
         padding: 17px;
-        font-size: 12px;
+        font-size: 15px;
         letter-spacing: 1px;
         text-decoration: none;
-        color: #ddd;
-        font-weight: 700;
+        color: #FFF;
+        font-weight: 400;
+        line-height: 20px;
     }
 
     #cssmenu > ul > li:hover > a, #cssmenu ul li.active a {
@@ -242,7 +252,8 @@
         }
 
         #cssmenu {
-            width: 33%
+            width: 100%;
+            background: none;
         }
 
         #cssmenu ul {
