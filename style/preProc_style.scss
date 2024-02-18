@@ -227,14 +227,14 @@ header {
 
 .past_client_images {
   display: flex;
-  justify-content: $text-align;
+  justify-content: center;
   padding: 40px 46px;
 
   a {
     display: inline-flex;
     /*margin-left: 90px;*/
     text-align: $text-align;
-    align-items: $text-align;
+    align-items: center;
   }
 }
 
