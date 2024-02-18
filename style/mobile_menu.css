@@ -25,6 +25,11 @@
         background-color: transparent;
     }
 
+    #cssmenu ul li:last-of-type a {
+        color: #000;
+        background-color:#FFF;
+    }
+
     .container_header {
         padding-left: 35px;
     }
